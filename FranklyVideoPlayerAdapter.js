@@ -73,7 +73,7 @@ class FranklyVideoPlayerAdapter extends Component {
   render(){
     return (
       <div className='VideoModuleDemo'>	
-        <h1>Video Demo</h1> 
+        <h1>Video Demo 2</h1> 
         <button onClick={this.updateVideo}>Video2</button>
 	      {this.state.video}
       </div>
