@@ -13,7 +13,8 @@ class FranklyVideoPlayerAdapter extends Component {
   }
 
   componentDidMount() { // set initial video
-    const url = 'https://content.jwplatform.com/manifests/yp34SRmf.m3u8';
+//     const url = 'https://content.jwplatform.com/manifests/yp34SRmf.m3u8';
+    const url = 'https://kotv-lh.akamaihd.net/i/KOTV_1073@97915/master.m3u8';
     const wNVideoCanvasProps = [{
       SetFlashLiveStream: [{
         strUrl: url,
